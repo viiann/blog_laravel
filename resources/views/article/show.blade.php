@@ -1,7 +1,7 @@
 @extends('layouts.app')
-
 @section('content')
 
-un seul article
+{{$article->titre}}
+{{$article->contenu}}
 
 @endsection
