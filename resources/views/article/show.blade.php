@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
 
-{{$article->titre}}
-{{$article->contenu}}
+{{$article->titre}}<br/><br/>
+{{$article->contenu}}<br/>
+<h2>{{$article->user->username}}</h2>
 
 @endsection

@@ -6,6 +6,8 @@
 <a href="{{route('article.show',$article->id)}}">{{$article->titre}}</a>
 <p>{{Str::limit($article->contenu,$limit = 50, $end = "....")}}</p>
 
+
+
 @endforeach
 
 @endsection
